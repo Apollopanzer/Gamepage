@@ -1,0 +1,17 @@
+.jumbotron {
+ background-image: url("https://img.itch.zone/aW1hZ2UvODQ5MjkvNDAzNTg3LnBuZw==/original/eoN3OQ.png");
+background-size:cover;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
